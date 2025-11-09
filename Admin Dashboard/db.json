@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "phone": "+1234567890",
+      "location": "Kigali, Rwanda",
+      "role": "super_admin",
+      "status": "active",
+      "permissions": ["all"],
+      "lastActive": "2024-03-20T10:00:00Z",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "lastLogin": "2024-03-20T09:55:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password123",
+      "phone": "+1987654321",
+      "location": "Butare, Rwanda",
+      "role": "admin",
+      "status": "active",
+      "permissions": ["manage_users", "view_reports", "manage_content"],
+      "lastActive": "2024-03-20T09:30:00Z",
+      "createdAt": "2024-01-15T00:00:00Z",
+      "lastLogin": "2024-03-20T09:25:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Bob Wilson",
+      "email": "bob@example.com",
+      "password": "password123",
+      "phone": "+1122334455",
+      "location": "Gisenyi, Rwanda",
+      "role": "moderator",
+      "status": "inactive",
+      "permissions": ["moderate_content", "view_reports"],
+      "lastActive": "2024-03-19T15:00:00Z",
+      "createdAt": "2024-02-01T00:00:00Z",
+      "lastLogin": "2024-03-19T14:55:00Z"
+    }
+  ]
+} 
