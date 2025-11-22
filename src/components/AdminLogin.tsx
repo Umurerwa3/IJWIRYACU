@@ -115,7 +115,7 @@ const AdminLogin: React.FC = () => {
         <div className="mt-6 p-4 bg-primary-700 rounded-lg">
           <p className="text-primary-100 text-sm text-center">
             <strong>First Time Setup?</strong><br/>
-            Run SUPABASE_SETUP.sql to create admin accounts
+            WELCOME TO REPORT DASHBOARD
           </p>
         </div>
       </div>
