@@ -67,18 +67,22 @@ Before you begin, ensure you have the following installed on your machine:
 
 Install dependencies:
 
-install
-Environment Variables
-Create a .env file in the root directory.
+Setting Up Environment Variables
+The project uses a .env file to manage sensitive configuration details. Follow these steps to set it up:
 
-Add the following environment variables:
+1. Create a .env file in the root directory of the project:
 
-# Supabase Configuration
-VITE_SUPABASE_URL=https://your-supabase-url.supabase.co
-VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
+  touch .env
+
+2. Open the .env file in your preferred text editor and add the following variables:
+
+
+A# Get these values from your Supabase project settings
+VITE_SUPABASE_URL=https://your-supabase-url.supabase.co  # Replace with your Supabase URL
+VITE_SUPABASE_ANON_KEY=your-supabase-anon-key            # Replace with your Supabase anon key
 
 # Admin Settings
-VITE_ADMIN_EMAIL=your-admin-email@example.com
+VITE_ADMIN_EMAIL=your-admin-email@example.com            # Replace with your admin email
 
 
 Usage
