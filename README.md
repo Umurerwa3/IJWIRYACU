@@ -118,9 +118,9 @@ ijwiryacu/
 ├── package.json          # Project dependencies and scripts
 └── README.md             # Project documentation 
 
-Project Methodology
+PROJECT METHODOLOGY
 
-This project follows the Agile methodology, which means:
+ his project follows the Agile methodology, which means:
 
 Iterative Development: Features are built in iterations based on feedback
 MVP Approach: Current version represents the Minimum Viable Product (MVP)
