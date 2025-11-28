@@ -1,6 +1,7 @@
 # IJWIRYACU Project
 
-IJWIRYACU is a web application designed to provide seamless integration with Supabase for backend services. This project leverages modern web development tools and frameworks to deliver a robust and scalable solution.
+Ijwiryacu is a simple and practical reporting platform designed to help users easily submit concerns, issues, or incidents, while giving administrators a central place to view and manage those reports. The project focuses on creating a one-way communication flow where users can report, and admins can review those reports in an organized and accessible dashboard.
+The platform aims to provide a reliable, lightweight solution for situations where quick reporting and efficient monitoring are required whether for community issues, safety concerns, or general feedback.
 
 ---
 
@@ -49,11 +50,12 @@ Follow these steps to set up the project locally.
 
 ### Prerequisites
 
-Ensure you have the following installed:
+Before you begin, ensure you have the following installed on your machine:
 
-- [Node.js](https://nodejs.org/) (v16 or higher)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-- A Supabase account and project
+1. **Node.js**: Download and install [Node.js](https://nodejs.org/) (v16 or higher).
+2. **npm**: Comes bundled with Node.js. Alternatively, you can use [yarn](https://yarnpkg.com/).
+3. **Git**: Download and install [Git](https://git-scm.com/).
+4. **Supabase Account**: Create a free account at [Supabase](https://supabase.com/) and set up a new project.
 
 ### Installation
 
