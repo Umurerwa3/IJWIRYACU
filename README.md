@@ -116,4 +116,15 @@ ijwiryacu/
 ├── public/               # Static assets
 ├── .env                  # Environment variables
 ├── package.json          # Project dependencies and scripts
-└── README.md             # Project documentation
+└── README.md             # Project documentation 
+
+Project Methodology
+
+This project follows the Agile methodology, which means:
+
+Iterative Development: Features are built in iterations based on feedback
+MVP Approach: Current version represents the Minimum Viable Product (MVP)
+Continuous Improvement: System will evolve with user feedback
+Flexibility: New features and improvements added based on real-world usage
+Feedback-Driven: Each iteration informs the next based on user experiences 
+
