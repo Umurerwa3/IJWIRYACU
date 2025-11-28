@@ -72,7 +72,7 @@ The project uses a .env file to manage sensitive configuration details. Follow t
 
 1. Create a .env file in the root directory of the project:
 
-  touch .env
+  # touch .env
 
 2. Open the .env file in your preferred text editor and add the following variables:
 
@@ -84,8 +84,36 @@ VITE_SUPABASE_ANON_KEY=your-supabase-anon-key            # Replace with your Sup
 # Admin Settings
 VITE_ADMIN_EMAIL=your-admin-email@example.com            # Replace with your admin email
 
+3. Replace the placeholder values with your actual Supabase project details:
 
-Usage
-Start the development server:
+VITE_SUPABASE_URL: Found in your Supabase project settings under "API".
+VITE_SUPABASE_ANON_KEY: Found in your Supabase project settings under "API Keys".
+VITE_ADMIN_EMAIL: Your admin email address for managing the application.
 
-Open your browser and navigate to http://localhost:3000.
+# Installing Dependencies
+
+1. Install the required dependencies by running:
+   # npm install
+
+This will install all the packages listed in the package.json file.
+
+# Running the Development Server
+Start the development server by running:
+  # npm run dev
+
+2. Open your browser and navigate to http://localhost:3000 to view the application.
+
+# Project Structure
+The project follows a standard structure for modern web applications:
+
+ijwiryacu/
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── pages/            # Application pages
+│   ├── services/         # API and Supabase service integrations
+│   ├── styles/           # Global and component-specific styles
+│   └── main.js           # Entry point for the application
+├── public/               # Static assets
+├── .env                  # Environment variables
+├── package.json          # Project dependencies and scripts
+└── README.md             # Project documentation
